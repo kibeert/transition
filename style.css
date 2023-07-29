@@ -186,6 +186,7 @@ li a, .drop
     background-size: cover;
     animation-name: image;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .form{
     background-color:#f2f7f4;
