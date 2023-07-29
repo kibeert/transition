@@ -132,17 +132,25 @@ li a, .drop
 .table4{
     width: 100px;
     height: 100px;
-    background-color: blue;
+    
     margin-left: 40%;  
     transition: width 2s, height 4s;
+}
+.table4 img{
+    width: 100px;
+    width: 150px;
+    transition: width 2s, height 4s;
+}
+.table4 img:hover{
+    width: 300px;
 }
 .table4:hover{
     width: 300px;
     height: 300px;
 }
 .table5{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-left: 40%;  
     transition: width 2s, height 4s, transform 2s;
 }
@@ -162,6 +170,22 @@ li a, .drop
     width: 300px;
     height: 300px;
     transform: rotate(180deg);
+}
+@keyframes image{
+    0%{background-image: url(images/hd.jpg) ;}
+    25%{background-image: url(images/life_4k-hd_wallpapers.jpg);}
+    50%{background-image: url(images/OIF.jpg);}
+    75%{background-image: url(images/OIF\ \(1\).jpg);}
+    100%{background-image: url(images/OIP.jpg);}
+}
+.table6{
+    width: 500px;
+    height: 500px;
+    background-image: url(images/hd.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: image;
+    animation-duration: 10s;
 }
 .form{
     background-color:#f2f7f4;
