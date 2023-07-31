@@ -36,6 +36,25 @@ p{
     text-decoration-line: none;
     color: azure;
 }
+.aligncenter{
+    text-align: center;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+.pagination a{
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+    padding: 8px 16px;
+    border: 2px solid blueviolet;
+}
+.pagination a:hover{
+    background-color: #ccc;
+    border-radius: 5px;
+}
 li a, .drop
 .image-cointainer{
     display: flex;
@@ -95,7 +114,7 @@ li a, .drop
 
 }
 .name p{
-    writing-mode: ;
+
     font-size: 30px;
     color: wheat;
     text-shadow: 2px 4px 3px #000000;
@@ -172,11 +191,11 @@ li a, .drop
     transform: rotate(180deg);
 }
 @keyframes image{
-    0%{background-image: url(images/hd.jpg) ;}
-    25%{background-image: url(images/life_4k-hd_wallpapers.jpg);}
-    50%{background-image: url(images/OIF.jpg);}
-    75%{background-image: url(images/OIF\ \(1\).jpg);}
-    100%{background-image: url(images/OIP.jpg);}
+    0%{background-image: url(images/Bliss\,\ THE\ Desktop\ Background\ _\ Esoteric\ Internet.jpeg) ;}
+    25%{background-image: url(images/Empty\ Wooden\ Table\ Party\ Garden\ Background\ Stock\ Photo\ \(Edit\ Now\)\ 517520590.jpeg);}
+    50%{background-image: url(images/Free\ Flex\ banner\ Backgrounds\ __\ FREE\ BANNER\ FLEX\ BACKGROUNDS\ __\ Free\ banner\ backgrounds\ download\ __\ free\ birthday\ banner\ backgrounds.jpeg);}
+    75%{background-image: url(images/Free\ Photo\ _\ Wooden\ board\ empty\ table\ top\ blurred\ background_\ perspective\ brown\ wood\ table\ over\ blur\ city\ building\ view\ background\ -\ can\ be\ used\ mock\ up\ for\ montage\ products\ display\ or\ design\ key\ visual\ layout_.jpeg);}
+    100%{background-image: url(images/Free\ Photo\ _\ Wooden\ table\ with\ ocean\ landscape\ in\ background.jpeg);}
 }
 .table6{
     width: 500px;
@@ -214,6 +233,9 @@ li a, .drop
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+.hero img{
+    object-fit: cover;
+}
 .form{
     background-color:#f2f7f4;
     box-sizing: border-box;
@@ -227,10 +249,6 @@ input[type=text], select{
     border: 1px solid #ccc;
     border-radius: 4px;
     cursor: pointer;
-    background-image: url(images/search-icon-png-2.png);
-    background-position: 90px 20px;
-    background-repeat: no-repeat;
-    
 }
 input[type=submit]{
     width: 100%;
@@ -244,6 +262,7 @@ input[type=submit]{
 }
 input[type=submit]:hover{
     background-color: #14db1b;
+
 }
 input[type=text]:focus{
     border: 1px solid #555;
@@ -267,6 +286,7 @@ input[type=search]:focus{
     width: 100%;
 }
 textarea{
+    resize: both;
     width: 100%;
     height: 150px;
     padding: 12px 20px;
